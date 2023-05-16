@@ -1,0 +1,5 @@
+from math import factorial
+
+n1 = int(input('Digite o número desejado: '))
+f = factorial(n1)
+print('O fatoial de {} é {}'.format(n1, f))
